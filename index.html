@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="tailwind.css">
+    <!-- Tailwind and DaisyUI CDN -->
+     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+     <!-- font awesome CDN -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="bg-[#F4F5F7] h-[100vh] flex justify-center items-center flex-col">
+    <div class="w-[300px] h-[130px] bg-[url(./assets/bg.png)] bg-cover flex justify-center items-center">
+        <img src="./assets/Group.png" alt="">
+        </div>
+    <form class="bg-white rounded-2xl p-8 w-[350px]">
+        <div>
+        <label for="" class="font-medium">Mobile Number</label> <br>
+        <input id="numberCheck" type="text" placeholder="Enter your number" class="input bg-[#F4F5F7] rounded-2xl mt-3"/>
+        </div>
+        <div class="mt-5">
+        <label for="" class="font-medium">4 Digit Pin</label> <br>
+        <input id="pinCheck" type="text" placeholder="Enter 4 Digit Pin" class="input bg-[#F4F5F7] rounded-2xl mt-3"/>
+        </div>
+        <button id="loginBtn" class="btn w-full rounded-2xl text-white font-bold mt-3 bg-[#0874F2]">Login</button>
+    </form>
+   <script src="./js/script.js"></script> 
+</body>
+</html>
